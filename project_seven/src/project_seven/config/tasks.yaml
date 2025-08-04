@@ -1,0 +1,15 @@
+summarize_pdf:
+  description: "Read and provide a concise 100-word summary of the PDF document at '{{file_path}}'"
+  expected_output: "A clear and focused 100-word summary of the PDF content"
+  agent: pdf_summarizer
+
+analyze_benefits:
+  description: "Analyze and identify 5 key advantages of electric vehicles from the provided PDF content"
+  expected_output: "A detailed analysis of 5 key advantages of electric vehicles, with supporting evidence from the document"
+  agent: ev_benefits_analyst
+
+analyze_limitations:
+  description: "Analyze and identify 5 key challenges or limitations of electric vehicles from the provided PDF content"
+  expected_output: "A detailed analysis of 5 key challenges and limitations of electric vehicles, with supporting evidence from the document"
+  agent: ev_limitations_analyst
+
